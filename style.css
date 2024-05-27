@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Averta CY W10";
+}
+
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    width: 100%;
+    background-color: #fff;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 50px;
+    padding-top: 0;
+}
+
+.nav img{
+    width: 90px;
+}
+
+.nav .right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav .right a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 500;
+    font-size: 1.2vw;
+    color: #000;
+    letter-spacing: -1px;
+}
+
+.nav i{
+    font-size: 20px;
+}
+
+.home .homemain{
+    width: 100%;
+    padding: 13.7vw 14.8vw;
+}
+
+.homemain h1{
+    text-transform: capitalize;
+    letter-spacing: -.08vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.home .homemain .headings{
+    display: flex;
+    gap: 40px;
+}
+
+.home .homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke: #000 1.3px;
+    font-size: 7vw;
+    font-weight: 900;
+    letter-spacing: -5px;
+    line-height: 1;
+    transition: .5s;
+}
+
+.home .homemain .headings h1:hover{
+    color: black;
+}
+
+.homelast{
+    padding: 0vw 15vw;
+    padding-bottom: 5vw;
+}
+
+.homelast p{
+    width: 64%;
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: -.08vw;   
+}
+
+.homelast p::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+.featured{
+    padding: 10vw 15vw;
+    /* height: 60vh; */
+}
+
+.featureheading>h1{
+    line-height: 1;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.featureheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: #000 1px;
+}
+
+.featuredimage{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+}
+
+.fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+}
+
+.fleftelm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.fleftelm h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.fleftelm h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.fleftelm h4{
+    opacity: .5;
+}
+
+.fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+
+.fright .images{
+    width: 90%;
+    height: 90%;
+    background-color: aqua;
+}
+
+.fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vw 0;
+}
+
+.fbtn button{
+    padding: 1.3vw 2.5vw;
+    margin-bottom: 1vw;
+    border-radius: 100px;
+    border: 2px solid rgb(130, 130, 130);
+    background-color: #fff;
+    font-size: 1.2vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+.dev h1{
+    font-size: 3.8vw;
+    font-weight: 400;
+    line-height: 1;
+    width: 60%;
+}
+
+.dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+
+.slides{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+}
+
+.slide{
+    width: 30%;
+}
+
+.slide .image{
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slide .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slides .tag{
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #ededed;
+    margin: 20px 0;
+}
+.slide h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
